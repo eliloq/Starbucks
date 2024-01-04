@@ -1,0 +1,27 @@
+@font-face {
+  font-family: SoDoSans-Bold;
+  src: url(../font/SoDoSans-Bold.ttf);
+  src: url(../font/SoDoSans-Bold.woff);
+  src: url(../font/SoDoSans-Bold.woff2);
+}
+@font-face {
+  font-family: SoDoSans-Regular;
+  src: url(../font/SoDoSans-Regular.ttf);
+  src: url(../font/SoDoSans-Regular.woff);
+  src: url(../font/SoDoSans-Regular.woff2);
+}
+@font-face {
+  font-family: SoDoSans-SemiBold;
+  src: url(../font/SoDoSans-SemiBold.ttf);
+  src: url(../font/SoDoSans-SemiBold.woff);
+  src: url(../font/SoDoSans-SemiBold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: SoDoSans-Regular;
+}

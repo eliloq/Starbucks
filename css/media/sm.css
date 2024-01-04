@@ -1,0 +1,297 @@
+/* Header box */
+
+div.wrapper > div.header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+  box-shadow: 0px 1px 5px gainsboro;
+}
+
+/* vertical menu */
+div.wrapper > div.header > div.vertical-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* menu  icon*/
+div.wrapper > div.header > div.vertical-menu > div.menu {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  justify-self: flex-end;
+  margin-right: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 250ms linear;
+}
+div.wrapper > div.header > div.vertical-menu > div.menu::after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 200ms linear;
+  background-color: #f0f0f0;
+}
+div.wrapper > div.header > div.vertical-menu > div.menu:hover::after {
+  opacity: 1;
+  width: 45px;
+  height: 45px;
+}
+
+div.wrapper > div.header > div.vertical-menu > div.menu > div {
+  width: 22px;
+  height: 2px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 5;
+  background-color: black;
+}
+
+/* cover div */
+div.wrapper > div.header > div.vertical-menu > div.menu > div.cover {
+  width: 100%;
+  height: calc(100% - 80px);
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 1;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+/* sum menu */
+div.wrapper > div.header > div.vertical-menu > div.menu > div.s-menu {
+  top: 80px;
+  right: -800px;
+  width: 80%;
+  display: none;
+  z-index: 2;
+  border-radius: 0;
+  height: calc(100% - 80px);
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 1px 5px gainsboro;
+}
+
+/* menu items */
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.menu-items {
+  width: 85%;
+  height: 45%;
+  margin: 0 auto;
+  border-bottom: 3px solid rgb(228, 228, 228);
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.menu-items
+  > nav {
+  width: 100%;
+  height: 100%;
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.menu-items
+  > nav
+  > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 40px;
+}
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.menu-items
+  > nav
+  > ul
+  > li {
+  width: 100%;
+}
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.menu-items
+  > nav
+  > ul
+  > li
+  > a {
+  font-family: SoDoSans-Regular;
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+/* links */
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links {
+  width: 90%;
+  height: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* loction div */
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.location {
+  order: 2;
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.location
+  > a {
+  font-family: SoDoSans-Regular;
+  color: black;
+  font-size: 18px;
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.location
+  > a:hover {
+  color: #4d917a;
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.location
+  > a
+  > i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* buttons div */
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.buttons {
+  order: 1;
+}
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.buttons
+  > a:nth-of-type(1) {
+  color: black;
+  border: 1px solid black;
+  padding: 8px 18.5px;
+  border-radius: 30px;
+  margin-right: 15px;
+  transition: all 250ms linear;
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.buttons
+  > a:nth-of-type(1):hover {
+  background-color: rgb(230, 230, 230);
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.buttons
+  > a:nth-of-type(2) {
+  color: white;
+  background-color: black;
+  padding: 8px 18.5px;
+  border-radius: 30px;
+  transition: all 250ms linear;
+}
+
+div.wrapper
+  > div.header
+  > div.vertical-menu
+  > div.menu
+  > div.s-menu
+  > div.links
+  > div.buttons
+  > a:nth-of-type(2):hover {
+  background-color: rgba(0, 0, 0, 0.568);
+}
+
+/* starbucks icon */
+
+div.wrapper > div.header > div.vertical-menu > div.logo {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: left;
+}
+div.wrapper > div.header > div.vertical-menu > div.logo > a > img {
+  width: 45px;
+}
+
+/* Horizontal menu */
+div.wrapper > div.header > div.horizontal-menu {
+  display: none;
+}

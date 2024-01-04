@@ -1,0 +1,41 @@
+{
+    "header":[
+        {
+         "id":"1",
+         "src":"./img/Starbucks-logo.png",
+         "link":"#",
+         "alt":"Starbucks Logo"
+        },
+        {
+         "id":"2",
+         "content":"menu",
+         "link":"#"
+        },
+        {
+         "id":"3",
+         "content":"rewards",
+         "link":"#"
+        },
+        {
+         "id":"4",
+         "content":"gift cards",
+         "link":"#"
+        },
+        {
+         "id":"5",
+         "class":"fas fa-map-marker-alt",
+         "content":"Find a store",
+         "link":"#"
+        },
+        {
+         "id":"6",
+         "content":"Sign in",
+         "link":"#"
+        },
+        {
+         "id":"7",
+         "content":"Join now",
+         "link":"#"
+        }
+    ]
+}
