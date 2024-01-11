@@ -97,9 +97,8 @@
   "footer": [
     {
       "title": "1",
-      "liClass":"aboout-us",
+      "liClass":"about-us",
       "content": "About Us",
-      "divClass":"aboout-us",
       "iClass":"fas fa-chevron-down"
     },
     {
@@ -141,7 +140,6 @@
        "title": "2",
       "liClass":"careers",
       "content": "Careers",
-      "divClass":"careers",
       "iClass":"fas fa-chevron-down"
     },
     {
@@ -178,7 +176,6 @@
       "title": "3",
       "liClass":"social-impact",
       "content": "Social Impact",
-      "divClass":"social-impact",
       "iClass":"fas fa-chevron-down"
     },
     {
@@ -200,7 +197,6 @@
       "title": "4",
       "liClass":"business-partners",
       "content": "For Business Partners",
-      "divClass":"business-partners",
       "iClass":"fas fa-chevron-down"
     },
     {
@@ -227,7 +223,6 @@
       "title": "5",
       "liClass":"order-pickup",
       "content": "Order and Pick Up",
-      "divClass":"order-pickup",
       "iClass":"fas fa-chevron-down"
     },
     {
