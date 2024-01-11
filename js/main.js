@@ -69,7 +69,8 @@ $("div.wrapper>div.header>div.vertical-menu>div.menu").on({
       // the menu box
       
     $("html,body").css({
-      overflow:"visible"
+        overflow:"visible",
+        overflowX:"hidden"
     });
 
       setTimeout(() => {
