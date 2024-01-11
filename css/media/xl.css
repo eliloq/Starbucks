@@ -368,6 +368,7 @@ div.wrapper > div.containers > div:nth-of-type(5) > div.content > p {
 /* the paragraph under containers */
 div.wrapper > div.paragraph {
   width: 100%;
+  height:100px;
   background-color: white;
   display: flex;
   flex-flow: column nowrap;
