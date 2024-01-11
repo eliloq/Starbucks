@@ -92,5 +92,153 @@
       "id": "1",
       "content": "*At participating stores. Some restrictions apply. Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads. See <a href='#'> starbucks.com/rewards </a> for details and earn rates."
     }
+  ],
+
+  "footer": [
+    {
+      "title": "1",
+      "content": "About Us"
+    },
+    {
+      "id": "1",
+      "linkText": "Our Company",
+      "linkHref": "#"
+    },
+    {
+      "id": "2",
+      "linkText": "Our Coffee",
+      "linkHref": "#"
+    },
+    {
+      "id": "3",
+      "linkText": "Stories and News",
+      "linkHref": "#"
+    },
+    {
+      "id": "4",
+      "linkText": "Starbucks Archive",
+      "linkHref": "#"
+    },
+    {
+      "id": "5",
+      "linkText": "Investor Relations",
+      "linkHref": "#"
+    },
+    {
+      "id": "6",
+      "linkText": "Customer Service",
+      "linkHref": "#"
+    },
+    {
+      "id": "7",
+      "linkText": "Contact Us",
+      "linkHref": "#"
+    },
+    {
+      "title": "2",
+      "content": "Careers"
+    },
+    {
+      "id": "1",
+      "linkText": "Culture and Values",
+      "linkHref": "#"
+    },
+    {
+      "id": "2",
+      "linkText": "Inclusion, Diversity, and Equity",
+      "linkHref": "#"
+    },
+    {
+      "id": "3",
+      "linkText": "College Achievement Plan",
+      "linkHref": "#"
+    },
+    {
+      "id": "4",
+      "linkText": "Alumni Community",
+      "linkHref": "#"
+    },
+    {
+      "id": "5",
+      "linkText": "U.S. Careers",
+      "linkHref": "#"
+    },
+    {
+      "id": "6",
+      "linkText": "International Careers",
+      "linkHref": "#"
+    },
+    {
+      "title": "3",
+      "content": "Social Impact"
+    },
+    {
+      "id": "1",
+      "linkText": "People",
+      "linkHref": "#"
+    },
+    {
+      "id": "2",
+      "linkText": "Planet",
+      "linkHref": "#"
+    },
+    {
+      "id": "3",
+      "linkText": "Environmental and Social Impact Reporting",
+      "linkHref": "#"
+    },
+    {
+      "title": "4",
+      "content": "For Business Partners"
+    },
+    {
+      "id": "1",
+      "linkText": "Landlord Support Center",
+      "linkHref": "#"
+    },
+    {
+      "id": "2",
+      "linkText": "Suppliers",
+      "linkHref": "#"
+    },
+    {
+      "id": "3",
+      "linkText": "Corporate Gift Card Sales",
+      "linkHref": "#"
+    },
+    {
+      "id": "4",
+      "linkText": "Office and Foodservice Coffee",
+      "linkHref": "#"
+    },
+    {
+      "title": "5",
+      "content": "Order and Pick Up"
+    },
+    {
+      "id": "1",
+      "linkText": "Order on the App",
+      "linkHref": "#"
+    },
+    {
+      "id": "2",
+      "linkText": "Order on the Web",
+      "linkHref": "#"
+    },
+    {
+      "id": "3",
+      "linkText": "Delivery",
+      "linkHref": "#"
+    },
+    {
+      "id": "4",
+      "linkText": "Order and Pick Up Options",
+      "linkHref": "#"
+    },
+    {
+      "id": "5",
+      "linkText": "Explore and Find Coffee for Home",
+      "linkHref": "#"
+    }
   ]
 }
