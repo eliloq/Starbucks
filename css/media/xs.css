@@ -180,6 +180,11 @@ div.wrapper
   > div.links
   > div.location {
   order: 2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 div.wrapper
@@ -228,6 +233,11 @@ div.wrapper
   > div.links
   > div.buttons {
   order: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 div.wrapper
   > div.header
@@ -327,7 +337,6 @@ div.wrapper>div.containers>div>img{
 
 div.wrapper>div.containers>div>div.content{
   width: 100%;
-  height:inherit;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
