@@ -1,5 +1,5 @@
 async function Paragraph() {
-  let data = await fetch("http://localhost:2000/paragraph");
+  let data = await fetch("https://my-json-server.typicode.com/eliloq/Starbucks/paragraph");
   let res = await data.json();
   let paragraph = "";
 
