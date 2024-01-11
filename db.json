@@ -250,5 +250,72 @@
       "linkText": "Explore and Find Coffee for Home",
       "linkHref": "#"
     }
+  ],
+  
+  "social-media": [
+    {
+      "id": "1",
+      "src": "./img/twitter logo.png",
+      "link": "#"
+    },
+        {
+      "id": "2",
+      "src": "./img/youtube logo.png",
+      "link": "#"
+    },    {
+      "id": "3",
+      "src": "./img/pinterest logo.png.png",
+      "link": "#"
+    },    {
+      "id": "4",
+      "src": "./img/facebook logo.png.png",
+      "link": "#"
+    },    {
+      "id": "5",
+      "src": "./img/spotify logo.png",
+      "link": "#"
+    },    {
+      "id": "6",
+      "src": "./img/instagram logo.png",
+      "link": "#"
+    }
+  ],
+   "links": [
+    {
+      "id": "1",
+      "content": "Privacy Notice",
+      "link": "#"
+    },
+   {
+      "id": "2",
+      "content": "Terms of Use",
+      "link": "#"
+    },
+   {
+      "id": "3",
+      "content": "Do Not Share My Personal Information",
+      "link": "#"
+    },  
+     {
+      "id": "4",
+      "content": "CA Supply Chain Act",
+      "link": "#"
+    },  
+     {
+      "id": "5",
+      "content": "Accessibility",
+      "link": "#"
+    },  
+     {
+      "id": "6",
+      "content": "Cookie Preferences",
+      "link": "#"
+    } 
+   ],
+  "copy-right": [
+    {
+      "id": "1",
+      "content": "© 2024 Starbucks Coffee Company. All rights reserved."
+    }
   ]
 }
