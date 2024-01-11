@@ -94,7 +94,7 @@
     }
   ],
 
-  "footer": [
+  "footer-links": [
     {
       "title": "1",
       "liID":"about-us",
@@ -252,7 +252,7 @@
     }
   ],
   
-  "social-media": [
+  "footer-more": [
     {
       "id": "1",
       "src": "./img/twitter logo.png",
@@ -278,43 +278,43 @@
       "id": "6",
       "src": "./img/instagram logo.png",
       "link": "#"
-    }
-  ],
-   "links": [
+    },
+
+    
     {
-      "id": "1",
+      "id": "7",
       "content": "Privacy Notice",
       "link": "#"
     },
    {
-      "id": "2",
+      "id": "8",
       "content": "Terms of Use",
       "link": "#"
     },
    {
-      "id": "3",
+      "id": "9",
       "content": "Do Not Share My Personal Information",
       "link": "#"
     },  
      {
-      "id": "4",
+      "id": "10",
       "content": "CA Supply Chain Act",
       "link": "#"
     },  
      {
-      "id": "5",
+      "id": "11",
       "content": "Accessibility",
       "link": "#"
     },  
      {
-      "id": "6",
+      "id": "12",
       "content": "Cookie Preferences",
       "link": "#"
-    } 
-   ],
-  "copy-right": [
+    },
+
+    
     {
-      "id": "1",
+      "id": "13",
       "content": "© 2024 Starbucks Coffee Company. All rights reserved."
     }
   ]
