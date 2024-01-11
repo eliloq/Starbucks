@@ -175,20 +175,12 @@ div.wrapper
   > div.horizontal-menu
   > div.links
   > div.location{
+    order: 2;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-div.wrapper
-  > div.header
-  > div.vertical-menu
-  > div.menu
-  > div.s-menu
-  > div.links
-  > div.location {
-  order: 2;
-}
 
 div.wrapper
   > div.header
@@ -233,20 +225,13 @@ div.wrapper
   > div.horizontal-menu
   > div.links
   > div.buttons{
+    order: 1;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-div.wrapper
-  > div.header
-  > div.vertical-menu
-  > div.menu
-  > div.s-menu
-  > div.links
-  > div.buttons {
-  order: 1;
-}
+
 div.wrapper
   > div.header
   > div.vertical-menu
