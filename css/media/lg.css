@@ -108,6 +108,17 @@ div.wrapper
   > div.header
   > div.horizontal-menu
   > div.links
+  > div.location{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+div.wrapper
+  > div.header
+  > div.horizontal-menu
+  > div.links
   > div.location
   > a:hover {
   color: #4d917a;
@@ -125,6 +136,17 @@ div.wrapper
 }
 
 /* buttons div */
+
+div.wrapper
+  > div.header
+  > div.horizontal-menu
+  > div.links
+  > div.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 
 div.wrapper
   > div.header
@@ -201,7 +223,6 @@ div.wrapper>div.containers>div>img{
 
 div.wrapper>div.containers>div>div.content{
   width: 50%;
-  height:inherit;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
