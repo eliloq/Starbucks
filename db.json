@@ -97,7 +97,8 @@
   "footer": [
     {
       "title": "1",
-      "content": "About Us"
+      "content": "About Us",
+      "class":"fas fa-chevron-down"
     },
     {
       "id": "1",
@@ -136,7 +137,8 @@
     },
     {
       "title": "2",
-      "content": "Careers"
+      "content": "Careers",
+      "class":"fas fa-chevron-down"
     },
     {
       "id": "1",
@@ -170,7 +172,8 @@
     },
     {
       "title": "3",
-      "content": "Social Impact"
+      "content": "Social Impact",
+      "class":"fas fa-chevron-down"
     },
     {
       "id": "1",
@@ -189,7 +192,8 @@
     },
     {
       "title": "4",
-      "content": "For Business Partners"
+      "content": "For Business Partners",
+      "class":"fas fa-chevron-down"
     },
     {
       "id": "1",
@@ -213,7 +217,8 @@
     },
     {
       "title": "5",
-      "content": "Order and Pick Up"
+      "content": "Order and Pick Up",
+      "class":"fas fa-chevron-down"
     },
     {
       "id": "1",
