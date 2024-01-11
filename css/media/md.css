@@ -170,7 +170,16 @@ div.wrapper
 }
 
 /* loction div */
-
+div.wrapper
+  > div.header
+  > div.horizontal-menu
+  > div.links
+  > div.location{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 div.wrapper
   > div.header
   > div.vertical-menu
@@ -219,6 +228,16 @@ div.wrapper
 }
 
 /* buttons div */
+div.wrapper
+  > div.header
+  > div.horizontal-menu
+  > div.links
+  > div.buttons{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 div.wrapper
   > div.header
   > div.vertical-menu
@@ -324,7 +343,6 @@ div.wrapper>div.containers>div>img{
 
 div.wrapper>div.containers>div>div.content{
   width: 50%;
-  height:inherit;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
