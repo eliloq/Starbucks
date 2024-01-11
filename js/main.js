@@ -1,6 +1,9 @@
 import Header from "./Header.js";
 Header();
 
+import Container from "./Container.js";
+Container();
+
 // when we click on the menu icon in small sizes
 let flag = true;
 $("div.wrapper>div.header>div.vertical-menu>div.menu").on({
