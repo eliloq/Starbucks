@@ -8,12 +8,17 @@ Container();
 let flag = true;
 $("div.wrapper>div.header>div.vertical-menu>div.menu").on({
   click: function () {
+
+      $("html,body").css({
+      overflow:"hidden"
+    });
+
     if (flag) {
       $(this).css({
         gap: "0",
       });
 
-      // thhe menu box
+      // the menu box
       setTimeout(() => {
         $(
           "div.wrapper > div.header > div.vertical-menu > div.menu > div.s-menu"
@@ -58,7 +63,11 @@ $("div.wrapper>div.header>div.vertical-menu>div.menu").on({
       });
       flag = false;
     } else {
-      // thhe menu box
+      // the menu box
+      
+    $("html,body").css({
+      overflow:"visible"
+    });
 
       setTimeout(() => {
         $(
