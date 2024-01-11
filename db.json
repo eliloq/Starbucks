@@ -37,5 +37,53 @@
          "content":"Join now",
          "link":"#"
         }
-    ]
+    ],
+    
+  "container": [
+    {
+      "id": "1",
+      "src": "./img/137-88117.webp",
+      "alt": "Starbucks Rewards",
+      "title": "Gift cards keep on giving",
+      "content": "Join Starbucks Rewards and start earning free drinks & food when you use gift cards in the app. (Yes, really!)*",
+      "linkText": "Join for free",
+      "linkHref": "#"
+    },
+    {
+      "id": "2",
+      "src": "./img/137-88120.jpg",
+      "alt": "Starbucks Products",
+      "title": "Pass the pistachios",
+      "content": "Your favorite winter duo is back: the Pistachio Latte and Pistachio Cream Cold Brew.",
+      "linkText": "Order now",
+      "linkHref": "#"
+    },
+    {
+      "id": "3",
+      "src": "./img/137-88122.jpg",
+      "alt": "Starbucks Products",
+      "title": "Hey there, hazelnut",
+      "content": "Say hello to our Hazelnut Oatmilk Shaken Espresso, a rich and layered pick-me-up.",
+      "linkText": "Order now",
+      "linkHref": "#"
+    },
+    {
+      "id": "4",
+      "src": "./img/137-88124.jpg",
+      "alt": "Starbucks Products",
+      "title": "Daily delicious",
+      "content": "The new Potato, Cheddar & Chive Bakes are full of protein-packed goodness.",
+      "linkText": "Order now",
+      "linkHref": "#"
+    },
+    {
+      "id": "5",
+      "src": "./img/137-88126.webp",
+      "alt": "Starbucks Products",
+      "title": "Want to use your own cup?",
+      "content": "It’s easy to use a clean personal cup—tell your barista while ordering in-café and at the drive-thru, or in the app choose ”Personal Cup.” Thanks for helping us reduce waste together.",
+      "linkText": "Learn how",
+      "linkHref": "#"
+    }
+  ]
 }
