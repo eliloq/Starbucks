@@ -251,7 +251,6 @@
       "linkHref": "#"
     }
   ],
-  
   "footer-more": [
     {
       "id": "1",
@@ -262,25 +261,27 @@
       "id": "2",
       "src": "./img/youtube logo.png",
       "link": "#"
-    },    {
+    },   
+    {
       "id": "3",
       "src": "./img/pinterest logo.png",
       "link": "#"
-    },    {
+    },   
+    {
       "id": "4",
       "src": "./img/facebook logo.png",
       "link": "#"
-    },    {
+    },    
+    {
       "id": "5",
       "src": "./img/spotify logo.png",
       "link": "#"
-    },    {
+    },    
+    {
       "id": "6",
       "src": "./img/instagram logo.png",
       "link": "#"
     },
-
-    
     {
       "id": "7",
       "content": "Privacy Notice",
@@ -312,7 +313,6 @@
       "link": "#"
     },
 
-    
     {
       "id": "13",
       "content": "© 2024 Starbucks Coffee Company. All rights reserved."
