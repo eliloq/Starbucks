@@ -254,32 +254,32 @@
   "footer-more": [
     {
       "id": "1",
-      "src": "./img/twitter logo.png",
+      "src": "./img/spotify-logo.png",
       "link": "#"
     },
         {
       "id": "2",
-      "src": "./img/youtube logo.png",
+      "src": "./img/facebook-logo.png",
       "link": "#"
     },   
     {
       "id": "3",
-      "src": "./img/pinterest logo.png",
+      "src": "./img/pinterest-logo.png",
       "link": "#"
     },   
     {
       "id": "4",
-      "src": "./img/facebook logo.png",
+      "src": "./img/instagram-logo.png",
       "link": "#"
     },    
     {
       "id": "5",
-      "src": "./img/spotify logo.png",
+      "src": "./img/youtube-logo.png",
       "link": "#"
     },    
     {
       "id": "6",
-      "src": "./img/instagram logo.png",
+      "src": "./img/twitter-logo.png",
       "link": "#"
     },
     {
