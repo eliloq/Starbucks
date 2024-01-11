@@ -172,3 +172,174 @@ div.wrapper
 div.wrapper > div.header > div.vertical-menu {
   display: none;
 }
+
+
+/* containers */
+div.wrapper > div.containers {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 35px;
+}
+
+/* whole containers common properties */
+div.wrapper > div.containers > div {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+div.wrapper > div.containers > div > img {
+  width: 50%;
+}
+
+div.wrapper > div.containers > div > div.content {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+div.wrapper > div.containers > div > div.content > h2 {
+  width: 70%;
+  letter-spacing: 5px;
+  text-align: center;
+}
+div.wrapper > div.containers > div > div.content > a {
+  font-size: 18px;
+  font-family: SoDoSans-SemiBold;
+  padding: 8px 18.5px;
+  border-radius: 30px;
+  transition: all 250ms linear;
+}
+div.wrapper > div.containers > div > div.content > p {
+  width: 70%;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* container 01 */
+div.wrapper > div.containers > div:nth-of-type(1) {
+  background-color: #1e3932;
+}
+
+div.wrapper > div.containers > div:nth-of-type(1) > img {
+  order: 1;
+}
+
+div.wrapper > div.containers > div:nth-of-type(1) > div.content {
+  order: 2;
+}
+
+div.wrapper > div.containers > div:nth-of-type(1) > div.content > a {
+  color: white;
+  border: 1px solid white;
+}
+div.wrapper > div.containers > div:nth-of-type(1) > div.content > h2 {
+  letter-spacing: 0;
+  font-size: 26.5px;
+  color: white;
+}
+div.wrapper > div.containers > div:nth-of-type(1) > div.content > p {
+  font-size: 21px;
+  color: white;
+}
+
+/* container 02 */
+div.wrapper > div.containers > div:nth-of-type(2) {
+  background-color: #b2b267;
+}
+div.wrapper > div.containers > div:nth-of-type(2) > img {
+  order: 2;
+}
+div.wrapper > div.containers > div:nth-of-type(2) > div.content {
+  order: 1;
+}
+div.wrapper > div.containers > div:nth-of-type(2) > div.content > a {
+  color: black;
+  border: 1px solid black;
+}
+div.wrapper > div.containers > div:nth-of-type(2) > div.content > h2 {
+  font-size: 50px;
+  color: black;
+}
+div.wrapper > div.containers > div:nth-of-type(2) > div.content > p {
+  font-size: 25px;
+  color: black;
+}
+
+/* container 03 */
+div.wrapper > div.containers > div:nth-of-type(3) {
+  background-color: #efabfc;
+}
+div.wrapper > div.containers > div:nth-of-type(3) > img {
+  order: 1;
+}
+div.wrapper > div.containers > div:nth-of-type(3) > div.content {
+  order: 2;
+}
+div.wrapper > div.containers > div:nth-of-type(3) > div.content > a {
+  color: black;
+  border: 1px solid black;
+}
+
+div.wrapper > div.containers > div:nth-of-type(3) > div.content > h2 {
+  font-size: 50px;
+  color: black;
+}
+div.wrapper > div.containers > div:nth-of-type(3) > div.content > p {
+  font-size: 25px;
+  color: black;
+}
+
+/* container 04 */
+div.wrapper > div.containers > div:nth-of-type(4) {
+  background-color: #eec0ab;
+}
+div.wrapper > div.containers > div:nth-of-type(4) > img {
+  order: 2;
+}
+div.wrapper > div.containers > div:nth-of-type(4) > div.content {
+  order: 1;
+}
+div.wrapper > div.containers > div:nth-of-type(4) > div.content > a {
+  color: black;
+  border: 1px solid black;
+}
+div.wrapper > div.containers > div:nth-of-type(4) > div.content > h2 {
+  font-size: 50px;
+  color: black;
+}
+div.wrapper > div.containers > div:nth-of-type(4) > div.content > p {
+  font-size: 25px;
+  color: black;
+}
+
+/* container 05 */
+div.wrapper > div.containers > div:nth-of-type(5) {
+  min-height: 550px;
+  background-color: #1e3932;
+}
+
+div.wrapper > div.containers > div:nth-of-type(5) > img {
+  order: 1;
+}
+div.wrapper > div.containers > div:nth-of-type(5) > div.content {
+  order: 2;
+}
+
+div.wrapper > div.containers > div:nth-of-type(5) > div.content > a {
+  color: white;
+  border: 1px solid white;
+}
+
+div.wrapper > div.containers > div:nth-of-type(5) > div.content > h2 {
+  font-size: 50px;
+  color: white;
+}
+div.wrapper > div.containers > div:nth-of-type(5) > div.content > p {
+  font-size: 27px;
+  color: white;
+}
