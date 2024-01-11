@@ -1,5 +1,5 @@
 async function Header() {
-  let data = await fetch("http://localhost:2000/header");
+  let data = await fetch("https://my-json-server.typicode.com/eliloq/Starbucks/header");
   let res = await data.json();
   let logo = "",
     menu = "",
