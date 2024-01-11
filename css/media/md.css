@@ -166,7 +166,6 @@ div.wrapper
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  gap: 30px;
 }
 
 /* loction div */
@@ -178,8 +177,6 @@ div.wrapper
     order: 2;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
 div.wrapper
@@ -228,7 +225,6 @@ div.wrapper
     order: 1;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
   }
 
