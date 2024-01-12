@@ -168,7 +168,7 @@ div.wrapper
   justify-content: center;
 }
 
-* loction div */
+/* loction div */
 
 div.wrapper
   > div.header
@@ -284,6 +284,7 @@ div.wrapper
   > a:nth-of-type(2):hover {
   background-color: rgba(0, 0, 0, 0.568);
 }
+
 /* starbucks icon */
 
 div.wrapper > div.header > div.vertical-menu > div.logo {
@@ -302,6 +303,7 @@ div.wrapper > div.header > div.vertical-menu > div.logo > a > img {
 div.wrapper > div.header > div.horizontal-menu {
   display: none;
 }
+
 
 /* containers */
 div.wrapper>div.containers{
