@@ -374,6 +374,7 @@ div.wrapper > div.paragraph {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  margin: 30px 0;
 }
 div.wrapper > div.paragraph > p {
   width: 50%;
@@ -557,6 +558,7 @@ div.wrapper > div.footer > div.copyright {
   height: 65px;
   display: flex;
   align-items:start;
+  margin-top: 15px;
 }
 div.wrapper > div.footer > div.copyright > p {
   color: rgba(0, 0, 0, 0.61);
